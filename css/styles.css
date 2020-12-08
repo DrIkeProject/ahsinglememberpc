@@ -5,9 +5,9 @@
   /* Colors */
   --white-color: #ffffff;
   --black-color: #1d1c1c;
-  --title-text-color: #696969;
+  --title-text-color: #a7a4a4;
   --primary-text-color: #757575;
-  --accent-color: rgba(139, 139, 138, 0.829);
+  --accent-color: rgba(116, 116, 114, 0.829);
   --lighter-accent-color: rgba(155, 128, 41, 0.829);
 }
 *,
@@ -73,6 +73,7 @@ video {
   position: relative;
   overflow: hidden;
   z-index: 3;
+  border: 1px solid var(--accent-color);
 }
 .image {
   display: flex;
@@ -211,10 +212,10 @@ video {
 }
 
 /*===FOOTER===*/
-.contacts .container {
-  display: flex;
-  background-color: var(--accent-color);
-  border: 4px solid var(--accent-color);
+.contacts {
+  background-color: var(--title-text-color);
+  border-top: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
   padding-bottom: 30px;
   padding-left: 50px;
   margin-top: 20px;
